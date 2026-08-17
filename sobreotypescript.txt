@@ -1,0 +1,21 @@
+O Typescript é de Tipagem Estática: o tipo da variável é 
+explicitamente declarado e não pode ser alterado durante o código
+
+É um uperconjunto de Javascript
+
+Todo programa Javascript é um Typescript válido.
+    Typescript é traduzido em Javascript
+
+Ele não roda diretamente em um navegador/ambiente de execução
+    Não reconhecem o sistema de tipos e novas funcionalidades
+
+Necessário um processo de compilação (transpilação)
+    TS -> JS
+
+constante = const
+variavel = let
+
+    const exercico: number = 30
+    const avaliacao: number = 70
+    let nota = exercico + avaliacao
+
