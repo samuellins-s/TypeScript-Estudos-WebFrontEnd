@@ -1,2 +1,10 @@
 undefined
-any: qualquer coisa
+any: 
+    qualquer coisa
+
+arrays:
+    Representa uma lista de valores
+    Acesso pela sua posição de cada elemento(a começar de 0 (zero))
+
+constantes (const):
+    Uma vez definida, não pode ser mudado o seu valor
