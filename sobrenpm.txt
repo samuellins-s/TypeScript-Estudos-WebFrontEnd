@@ -1,0 +1,9 @@
+NPM: Node Package Manager
+
+Repositório de pacotes do Node.js
+Com ele, é possível a instalação de diversas ferramentas e bibliotecas
+
+Para instalar o typescript: Angular, bootstrap, e outros pacores
+
+tsc -init (tsconfig.json)
+npm init (package.json) -> infos sobre a aplicação
