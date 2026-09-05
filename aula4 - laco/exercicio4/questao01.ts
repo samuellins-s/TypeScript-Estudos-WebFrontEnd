@@ -6,16 +6,22 @@ calculo do numero de filhos de cada familia -> todas familias e faço a media ->
 
 */
 
-let soma_renda: number = 600000
-let soma_filhos: number = 300
+let rendas: number[] = [2500, 1800, 3200, 1500, -1]
+let filhos: number[] = [2, 3, 1, 4, 0]
+
+let soma_rendas: number = 0
+let soma_filhos: number = 0
 let quantidade_familias: number = 16
 
-while (soma_renda >= 0 && soma_filhos >= 0) {
-    let media_renda: number = soma_renda / quantidade_familias
-    let media_filhos: number = soma_filhos / quantidade_familias
-    console.log(`Valor da media da renda: ${media_renda}`)
-    console.log(`Valor da media dos filhos: ${media_filhos}`)
-
+let i: number = 0
+while (rendas[i] >= 0 && filhos[i] >= 0) {
+    soma_rendas += rendas[i]
+    soma_filhos += filhos[i]
+    quantidade_familias += 1
+    i++
 }
 
+let media_rendas: number = soma_rendas / quantidade_familias
+let media_filhos: number = soma_filhos / quantidade_familias
 
+console.log(`Total de familias: ${quantidade_familias} ; \nRenda média familiar: ${media_rendas} ; \nMédia de filhos: ${media_filhos}`)
