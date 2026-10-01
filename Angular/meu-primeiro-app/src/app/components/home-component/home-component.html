@@ -1,0 +1,18 @@
+<!-- tamplate do componente -> Estrutura html do componente-->
+<p>Olá, {{name}}!</p>
+
+<button (click)="submit($event)">Clique aqui</button>
+
+@if (deveMostrarTitulo){
+    <h1>Meu título</h1>
+
+} @else if (name == 'Jorginho') {
+    <h1>Meu título pro Jorginho Trumpet</h1>
+
+} @else {
+    <h1>Nao foi verdadeiro</h1>
+}
+
+@for(item of listItems; track item){
+    <p>{{item}}</p>
+}
